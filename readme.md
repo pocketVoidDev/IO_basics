@@ -1,3 +1,6 @@
+//this readme is only friendly to: markdown in plain txt. It is not ready for previews.
+
+
 this is a human work.
 
 Reason for this
