@@ -1,4 +1,4 @@
-<div  style="background: linear-gradient(180deg, #002b46 0%, #5c5454 50%, #01020f 100%); color: white; padding: 20px; ">
+<div  style="background: linear-gradient(180deg, #3507ff 0%, #393838 50%, #01020f 100%); color: white; padding: 20px; ">
 
 ## This project is made with a real human to solve problems.
 <code>
@@ -27,12 +27,15 @@ Process:
 
 START V4Calc
     FUNCTION USER_SELECT_MODE()   {
-        case USER_SELECT_MODE == 1 <- mode 1
-        case USER_SELECT_MODE == 2 <- mode 2
+        case USER_SELECT_MODE == 1 <- mode 1 ()
+        case USER_SELECT_MODE == 2 <- mode 2 ()
     } 
     FUNCTION mode_1() {
-        INPUT 
+        INPUT Ipv4Prefix
+        TotalHostBits <- 2 ** Ipv4Prefix 
+        DISPLAY "Total usable host bits = " + TotalHostBits  
     }
+    [ ]
 END V4Calc
 ```
 <hr>
