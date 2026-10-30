@@ -16,20 +16,6 @@ I found a problem when I have to manually calculate every single ip including su
                             f<- Exit the app.
     End App
 ```
-<hr>
-//Needs to be modified.
-# Variables
-| Variable(in Java Language ) | Type   | Definition                                   |
-| :-------------------------- | :----- | :------------------------------------------- |
-| HostUsableInput             | int    | Storage variable for                         |
-| HostUsable                  | int    | Total usable host count                      |
-| GivenPrefix                 | int    | Ipv4 given prefix                            |
-| SubMskAddress               | double | Subnet address value storage (non caculated) |
-| OutSubMskAddress            | double | Calculated subnet address value storage      |
-| USER_SELECT_MODE            | int    | Selcting programs' running mode              |
-
-<hr>
-
 
 //must've moved to line 20. and the variable table goes back here by line 37.
 ```
@@ -49,5 +35,14 @@ START V4Calc
     }
 END V4Calc
 ```
+<hr>
+
+//Needs to be modified.
+# Variables
+| Variable(in Java Language ) | Type   | Definition                                   |
+| :-------------------------- | :----- | :------------------------------------------- |
+| HostUsableInput             | int    | Storage variable for                         |
+
+
 <hr>
 </div>
